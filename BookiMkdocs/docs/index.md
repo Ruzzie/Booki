@@ -81,4 +81,30 @@ Dan kom je in het afboekscherm.
 In het afboekscherm staan weer de meest gebruikelijke gegevens van het product. 
 Geef altijd aan hoeveel producten je wilt afboeken (standaard op 1) en een omschrijving van de mutatie.
     
-      
+## Orders
+
+Een order kan 7 statussen hebben. De 5 waar iets meegedaan moet worden zijn hier in tabjes verdeeld :
+
+    -Wachten op betaling : Mensen hebben een order geplaatst, maar niet betaald. Er kan wat tijd zitten tussen bevestiging van betalen en order plaatsen. 
+    Orders die hier voor langere tijd staan kun je annuleren. De boeken in deze orders staan op gereserveerd. Die kunnen dus ook niet verkocht worden.
+    -Betaald : Nieuwe orders die betaald zijn, komen hier terecht. Als er een gele vrachtwagen staat achter het order Id, betekent dat dat het om een verzend order gaat.
+    Heb je de producten van de order verzameld, zet hem dan een status verder. De klant krijgt een mail, met order bevestiging. 
+    En als het een ophaal order is, dan bevestiging dat de order opgehaald kan worden.
+    - Klaar voor verzending : Als je de verzending hebt geregeld, dan zet je hem weer door, je kunt dan de track en trace invullen, 
+    die wordt weer in een mail naar de klant gestuurd.
+    - Wordt opgehaald : Deze orders liggen klaar om opgehaald te worden, worden ze opgehaald. Zet hem dan door, en de order komt op status afgehandeld en in het archief.
+    Er wordt nog een mail naar de klant gestuurd dat de order is opgehaald.
+    - Verzonden : Deze orders zijn verzonden, je kunt ze doorzetten of nog even laten staan tot het pakket is aangekomen.
+    
+Dan is er nog het archief, hierin komen alle afgehandelde orders, maar hier staan ook alle geannuleerde orders. Met de zoekbar boven de order status tabjes, 
+kun je zoeken in alle orders, dus ook die van het archief. Zoeken doe je op het order nummer. Als er een order wordt gevonden bij je ordernummer, kom je meteen in het order detail scherm.
+
+## Order detail scherm 
+
+Hier zie je de details van de bestelling, de producten, de gegevens van de klant en de status van de order. De eerste regel bij de producten is de barcode.
+Zorg ervoor dat je het juiste product uit de voorraad pakt. 
+
+    -Bijv barcode : 9789079677726-I-0000004489
+    De eerste 13 cijfers is het ean nummer, er tussen staat de -I- dit wil zeggen dat het volgende nummer een mutatieIn Id is. Zorg ervoor dat je het
+    goed mutatieIn Id hebt.
+          
