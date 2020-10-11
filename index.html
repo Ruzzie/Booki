@@ -66,6 +66,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#invoer" class="nav-link">Invoer</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
             <li class="nav-item" data-level="2"><a href="#uitgaand" class="nav-link">Uitgaand</a>
               <ul class="nav flex-column">
               </ul>
@@ -97,13 +101,13 @@ Je hoeft dan alleen nog maar de inkoopprijs , verkoopprijs en de locatie waar he
 <hr />
 <h2 id="navigatie-menu">Navigatie menu</h2>
 <ul>
-<li><code>Home</code></li>
-<li><code>Voorraad</code> -Hier kun je al jouw artikelen bekijken die ooit zijn ingevoerd.</li>
-<li><code>Invoer</code> -De plek om al jouw nieuwe artikelen snel en makkelijk in te voeren.</li>
-<li><code>Uitgaand</code> -Hiermee ga je naar het afboeken van artikelen.</li>
-<li><code>Orders</code> -Naar orderoverzicht, hier kun je ook snel zien of er nieuwe orders zijn, en of er nog orders liggen die verzonden moeten worden.</li>
-<li><code>Jouw bedrijfsnaam</code> -Hieronder staan alle instellingen voor jouw bedrijf</li>
-<li><code>Uitloggen</code></li>
+<li>Home</li>
+<li>Voorraad - Hier kun je al jouw artikelen bekijken die ooit zijn ingevoerd.</li>
+<li>Invoer - De plek om al jouw nieuwe artikelen snel en makkelijk in te voeren.</li>
+<li>Uitgaand - Hiermee ga je naar het afboeken van artikelen.</li>
+<li>Orders - Naar orderoverzicht, hier kun je ook snel zien of er nieuwe orders zijn, en of er nog orders liggen die verzonden moeten worden.</li>
+<li>Jouw bedrijfsnaam - Hieronder staan alle instellingen voor jouw bedrijf</li>
+<li>Uitloggen</li>
 </ul>
 <h2 id="home">Home</h2>
 <ul>
@@ -111,25 +115,30 @@ Je hoeft dan alleen nog maar de inkoopprijs , verkoopprijs en de locatie waar he
 <li>Hier kun je ook in 1 oogopslag zien of er nog openstaande orders zijn, en wanneer je voor het laatst een upload hebt gedaan naar boekwinkeltjes.</li>
 </ul>
 <h2 id="voorraad">Voorraad</h2>
-<p>Als je naar deze pagina gaat, worden automatisch de 25 laatst gewijzigde producten opgehaald. </p>
-<p>Je kunt hier ook zelf zoeken, met nog 3 opties.
-    -Zoeken alleen op voorraad, producten waar geen voorraad van is worden dan niet meer weergegeven.
-    -Zoeken op Conditie (Nieuw of Tweedehands).
-    -Zoeken op een tag.
-Natuurlijk zijn deze opties te combineren.</p>
-<p>Als er producten gevonden zijn, kun je de belangrijkste gegevens zien. 
-    -Titel, auteur en ean.
-    -Type is de conditie, Nieuw of Tweedehands(Als nieuw, Goed, Redelijk, Matig)
-    -Aantal, is het actuele aantal op voorraad.
-    -Locatie, waar het boek wordt bewaard/staat in de winkel.
-    -En de verkoopprijs inclusief btw in euros.</p>
-<p>## Invoer</p>
+<p>Als je naar deze pagina gaat, worden automatisch de 25 laatst gewijzigde producten opgehaald.
+Je kunt hier ook zelf zoeken, met nog 3 extra opties.</p>
+<ul>
+<li>Zoeken alleen op voorraad, producten waar geen voorraad van is worden dan niet meer weergegeven.</li>
+<li>Zoeken op Conditie (Nieuw of Tweedehands).</li>
+<li>Zoeken op een tag.</li>
+</ul>
+<p>Natuurlijk zijn deze opties te combineren.</p>
+<p>Als er producten gevonden zijn, kun je de belangrijkste gegevens zien. </p>
+<ul>
+<li>Titel, auteur en ean.</li>
+<li>Type is de conditie, Nieuw of Tweedehands(Als nieuw, Goed, Redelijk, Matig)</li>
+<li>Aantal, is het actuele aantal op voorraad.</li>
+<li>Locatie, waar het boek wordt bewaard/staat in de winkel.</li>
+<li>En de verkoopprijs inclusief btw in euros.</li>
+</ul>
+<h2 id="invoer">Invoer</h2>
 <p>Voordat je kunt zoeken op Ean, moet je eerst het invoer type en conditie selecteren. Doe dit nauwkeurig, dit wordt allemaal bij de mutatie opgeslagen.</p>
-<pre><code>-Aankoop : Ingekocht bij externe partij.
--Correctie : Een boek dat kwijt was en weer wordt gevonden bijv.
--Gecreeerd : Denk aan kaartjes voor een lezing.
--Terug gebracht : Retour van verkocht artikel.
-</code></pre>
+<ul>
+<li>Aankoop : Ingekocht bij externe partij.</li>
+<li>Correctie : Een boek dat kwijt was en weer wordt gevonden bijv.</li>
+<li>Gecreeerd : Denk aan kaartjes voor een lezing.</li>
+<li>Terug gebracht : Retour van verkocht artikel.</li>
+</ul>
 <p>Als je je selecties hebt gemaakt, scan dan de barcode van je artikel. En Booki gaat voor je op zoek.</p>
 <p>Als het boek al in je collectie is, dan worden de eerder ingevulde gegevens getoond. Staat het nog niet in je collectie dan worden 
 de belangrijkste gegevens die booki heeft getoond.</p>
@@ -149,25 +158,31 @@ Dan kom je in het afboekscherm.</p>
 Geef altijd aan hoeveel producten je wilt afboeken (standaard op 1) en een omschrijving van de mutatie.</p>
 <h2 id="orders">Orders</h2>
 <p>Een order kan 7 statussen hebben. De 5 waar iets meegedaan moet worden zijn hier in tabjes verdeeld :</p>
-<pre><code>-Wachten op betaling : Mensen hebben een order geplaatst, maar niet betaald. Er kan wat tijd zitten tussen bevestiging van betalen en order plaatsen. 
-Orders die hier voor langere tijd staan kun je annuleren. De boeken in deze orders staan op gereserveerd. Die kunnen dus ook niet verkocht worden.
--Betaald : Nieuwe orders die betaald zijn, komen hier terecht. Als er een gele vrachtwagen staat achter het order Id, betekent dat dat het om een verzend order gaat.
+<ul>
+<li>Wachten op betaling : Mensen hebben een order geplaatst, maar nog niet betaald. Er kan wat tijd zitten tussen bevestiging van betalen en order plaatsen. 
+Orders die hier voor langere tijd staan kun je annuleren. De boeken in deze orders staan op gereserveerd. Die kunnen dus ook niet verkocht worden.</li>
+<li>Betaald : Nieuwe orders die betaald zijn, komen hier terecht. Als er een gele vrachtwagen staat achter het order Id, betekent dat dat het om een verzend order gaat.
 Heb je de producten van de order verzameld, zet hem dan een status verder. De klant krijgt een mail, met order bevestiging. 
-En als het een ophaal order is, dan bevestiging dat de order opgehaald kan worden.
-- Klaar voor verzending : Als je de verzending hebt geregeld, dan zet je hem weer door, je kunt dan de track en trace invullen, 
-die wordt weer in een mail naar de klant gestuurd.
-- Wordt opgehaald : Deze orders liggen klaar om opgehaald te worden, worden ze opgehaald. Zet hem dan door, en de order komt op status afgehandeld en in het archief.
-Er wordt nog een mail naar de klant gestuurd dat de order is opgehaald.
-- Verzonden : Deze orders zijn verzonden, je kunt ze doorzetten of nog even laten staan tot het pakket is aangekomen.
-</code></pre>
-<p>Dan is er nog het archief, hierin komen alle afgehandelde orders, maar hier staan ook alle geannuleerde orders. Met de zoekbar boven de order status tabjes, 
-kun je zoeken in alle orders, dus ook die van het archief. Zoeken doe je op het order nummer. Als er een order wordt gevonden bij je ordernummer, kom je meteen in het order detail scherm.</p>
+En als het een ophaal order is, dan bevestiging dat de order opgehaald kan worden.</li>
+<li>Klaar voor verzending : Als je de verzending hebt geregeld, dan zet je hem weer door, je kunt dan de track en trace invullen, 
+die wordt weer in een mail naar de klant gestuurd.</li>
+<li>Wordt opgehaald : Deze orders liggen klaar om opgehaald te worden, worden ze opgehaald. Zet hem dan door, en de order komt op status afgehandeld en in het archief.
+Er wordt nog een mail naar de klant gestuurd dat de order is opgehaald.</li>
+<li>Verzonden : Deze orders zijn verzonden, je kunt ze doorzetten of nog even laten staan tot het pakket is aangekomen.</li>
+</ul>
+<p>De overige 2 statussen zijn :</p>
+<ul>
+<li>Afgehandeld</li>
+<li>Geannuleerd  </li>
+</ul>
+<p>Deze kun je bekijken als je het order nummer weet, dit doe je door het ordernummer te typen in de zoekbar, boven de status tabs. Als er een order wordt gevonden met het Id,
+dan kom je meteen in het detail overzicht van de order. Zie volgende onderwerp.</p>
 <h2 id="order-detail-scherm">Order detail scherm</h2>
 <p>Hier zie je de details van de bestelling, de producten, de gegevens van de klant en de status van de order. De eerste regel bij de producten is de barcode.
 Zorg ervoor dat je het juiste product uit de voorraad pakt. </p>
-<pre><code>-Bijv barcode : 9789079677726-I-0000004489
-De eerste 13 cijfers is het ean nummer, er tussen staat de -I- dit wil zeggen dat het volgende nummer een mutatieIn Id is. Zorg ervoor dat je het
-goed mutatieIn Id hebt.
+<pre><code>Bijv barcode : 9789079677726-I-0000004489.
+De eerste 13 cijfers is het ean nummer, er tussen staat de -I- dit wil zeggen dat het volgende nummer 
+een mutatieIn Id is. Zorg ervoor dat je product dezelfde code heeft.
 </code></pre></div>
             </div>
         </div>
@@ -252,5 +267,5 @@ goed mutatieIn Id hebt.
 
 <!--
 MkDocs version : 1.1.2
-Build Date UTC : 2020-10-11 09:54:26.094316+00:00
+Build Date UTC : 2020-10-11 20:37:45.823273+00:00
 -->
