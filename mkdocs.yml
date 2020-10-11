@@ -1,1 +1,5 @@
-site_name: Booki Documentation
+site_name: Booki Documentatie
+
+theme: 
+  name: cosmo
+  
