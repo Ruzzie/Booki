@@ -24,9 +24,25 @@
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
                 <a class="navbar-brand" href=".">Booki Documentatie</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
                 <!-- Expanded navigation -->
                 <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem active">
+                                <a href="." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="statistics/" class="nav-link">Statistieken</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="options/" class="nav-link">Instellingen</a>
+                            </li>
+                        </ul>
 
                     <ul class="nav navbar-nav ml-auto">
                         <li class="nav-item">
@@ -34,6 +50,16 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
+                            <li class="nav-item">
+                                <a rel="prev" class="nav-link disabled">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="statistics/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
                     </ul>
                 </div>
             </div>
@@ -63,6 +89,10 @@
               </ul>
             </li>
             <li class="nav-item" data-level="2"><a href="#voorraad" class="nav-link">Voorraad</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#product-detail-pagina" class="nav-link">Product detail pagina</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -100,6 +130,7 @@ scan de barcode en alle bij ons bekende gegevens worden vooraf ingevuld.
 Je hoeft dan alleen nog maar de inkoopprijs , verkoopprijs en de locatie waar het boek staat op te geven.</p>
 <hr />
 <h2 id="navigatie-menu">Navigatie menu</h2>
+<p><img alt="De Booki Navbar" src="img\BookiNavbar.png" /></p>
 <ul>
 <li>Home</li>
 <li>Voorraad - Hier kun je al jouw artikelen bekijken die ooit zijn ingevoerd.</li>
@@ -112,11 +143,13 @@ Je hoeft dan alleen nog maar de inkoopprijs , verkoopprijs en de locatie waar he
 <h2 id="home">Home</h2>
 <ul>
 <li>De pagina waar alles begint, vanaf hier kun je overal snel naar toe.</li>
+<li>Bijv naar statistieken, voor meer details hierover, ga naar de statistieken pagina.</li>
 <li>Hier kun je ook in 1 oogopslag zien of er nog openstaande orders zijn, en wanneer je voor het laatst een upload hebt gedaan naar boekwinkeltjes.</li>
 </ul>
 <h2 id="voorraad">Voorraad</h2>
 <p>Als je naar deze pagina gaat, worden automatisch de 25 laatst gewijzigde producten opgehaald.
 Je kunt hier ook zelf zoeken, met nog 3 extra opties.</p>
+<p><img alt="De Booki voorraad search" src="img\VoorraadSearch.png" /></p>
 <ul>
 <li>Zoeken alleen op voorraad, producten waar geen voorraad van is worden dan niet meer weergegeven.</li>
 <li>Zoeken op Conditie (Nieuw of Tweedehands).</li>
@@ -131,6 +164,15 @@ Je kunt hier ook zelf zoeken, met nog 3 extra opties.</p>
 <li>Locatie, waar het boek wordt bewaard/staat in de winkel.</li>
 <li>En de verkoopprijs inclusief btw in euros.</li>
 </ul>
+<h2 id="product-detail-pagina">Product detail pagina</h2>
+<p>Hier kun je alle gegevens van je product terugvinden. Om hier te komen moet je eerst het product zoeken in voorraad. 
+En dan op het boek icoontje klikken onder acties van je boek.</p>
+<p>Als je wijzigingen wilt aanbrengen aan een product doe je dat hier, bijv prijs aanpassen, notities maken bij een product.</p>
+<p>Grijs gekleurde gegevens zijn niet wijzigbaar. De gegevens die je hier zijn product eigen. Aantal bijvoorbeeld, is het totale aantal op
+voorraad, van welke leverancier maakt niks uit. Wil je weten van welke leveranciers je dit boek hebt, kijk dan in het log, De blauwe button met 
+de tekst "Toon log". Hier zie je precies welke in mutaties en uit mutaties er voor dit product zijn gedaan. </p>
+<p>Boven de "Toon log" button, is de "Print label" button. Als je hier op klikt kun je labels uitprinten voor je product. <strong>Let op</strong> hier weten we dus niet voor welke
+mutatie je een label wilt printen. Je kunt van meerdere mutaties voorraad hebben. Kijk bij meerdere opties goed welke je moet hebben. </p>
 <h2 id="invoer">Invoer</h2>
 <p>Voordat je kunt zoeken op Ean, moet je eerst het invoer type en conditie selecteren. Doe dit nauwkeurig, dit wordt allemaal bij de mutatie opgeslagen.</p>
 <ul>
@@ -267,5 +309,5 @@ een mutatieIn Id is. Zorg ervoor dat je product dezelfde code heeft.
 
 <!--
 MkDocs version : 1.1.2
-Build Date UTC : 2020-10-11 20:37:45.823273+00:00
+Build Date UTC : 2020-10-12 14:31:41.663692+00:00
 -->

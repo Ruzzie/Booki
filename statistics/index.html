@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Statistieken - Booki Documentatie</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/purebasic.min.css">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">Booki Documentatie</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">Statistieken</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../options/" class="nav-link">Instellingen</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href=".." class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../options/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#booki-statistieken" class="nav-link">Booki statistieken</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#verkoopcijfers" class="nav-link">Verkoopcijfers</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#voorraad-per-leverancier" class="nav-link">Voorraad per leverancier</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#voorraad-waarde" class="nav-link">Voorraad waarde</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="booki-statistieken">Booki statistieken</h1>
+<h2 id="verkoopcijfers">Verkoopcijfers</h2>
+<p>Hier kun je per Dag / Week / Maand / Jaar de uit mutaties bekijken. Dus eigenlijk welke producten zijn verkocht, afgeboekt, etc. 
+Alles wat een uitgaand product is. Van elk uitgaand product worden een aantal details gegeven.</p>
+<ul>
+<li>ean</li>
+<li>titel met auteur</li>
+<li>type (Nieuw of Tweedehands)</li>
+<li>aantal (hoeveelheid)</li>
+</ul>
+<p>En nog een aantal mutatie specifieke details</p>
+<ul>
+<li>Verkoop platform (Via welk kanaal is het product uit gegaan)</li>
+<li>Mutatie type (of het product is verkocht, afgeboekt, correctie, terug naar leverancier etc.)</li>
+<li>Verschillende prijzen</li>
+<li>Waar het product voor het laatst is besteld.</li>
+<li>Huidige voorraad, hier kun je zien wat de voorraad is van verkochte producten. De lijst wordt ook gesorteerd op minst op voorraad eerst. 
+Dit is zo gedaan zodat je makkelijk kunt zien, of je nieuwe voorraad moet bestellen van verkochte artikelen. De button met het doos icoontje
+brengt je naar het product log. Hierin kun je alle in en uitgaande mutaties van het product terugvinden.   </li>
+</ul>
+<h2 id="voorraad-per-leverancier">Voorraad per leverancier</h2>
+<p>Een handige pagina waar je precies kunt zien wat je per leverancier op voorraad hebt. 
+De producten staan gesorteerd op datum, langst op voorraad eerst.
+Aantal is het aantal producten op voorraad van deze leverancier. Als daar 2 staat wil dat dus niet zeggen dat je van dat artikel maar 2 producten op voorraad hebt.
+Het zou kunnen dat je nog een zelfde product hebt, maar van een andere leverancier. </p>
+<h2 id="voorraad-waarde">Voorraad waarde</h2>
+<p>Hier kun je de waarde van je voorraad terugvinden. Dit is nodig voor de belasting :</p>
+<pre><code>Aan het eind van elk boekjaar bepaalt u de waarde van de voorraden die op dat moment 
+in uw onderneming aanwezig zijn. In de regel moet u de voorraad waarderen tegen kostprijs. 
+Alleen voor incourante (moeilijk verhandelbaar gebleken) goederen, 
+zoals kleren en schoenen die uit de mode zijn, mag u een lagere waarde 
+nemen dan de kostprijs. In dat geval behandelt u het verschil tussen de kostprijs 
+en de lagere waarde als kosten, die u aftrekt van de opbrengsten.
+</code></pre>
+<p>De producten staan ingedeeld per type(conditie van het product). Nieuw zijn natuurlijk je nieuwe producten, de rest (als nieuw, goed etc) zijn tweedehands producten.</p>
+<p>Aantal op voorraad, zijn totalen. Dus van een zelfde product waar je er 10 van op voorraad hebt, tellen ze alle 10 mee. </p>
+<p>Totale inkoopprijs, zijn alle inkoopprijzen per categorie bij elkaar opgeteld. </p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
