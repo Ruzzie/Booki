@@ -11,7 +11,12 @@ scan de barcode en alle bij ons bekende gegevens worden vooraf ingevuld.
 Je hoeft dan alleen nog maar de inkoopprijs , verkoopprijs en de locatie waar het boek staat op te geven.
 ---
 
+
+
 ## Navigatie menu
+
+![De Booki Navbar](img\BookiNavbar.png)
+
 * Home
 * Voorraad - Hier kun je al jouw artikelen bekijken die ooit zijn ingevoerd.
 * Invoer - De plek om al jouw nieuwe artikelen snel en makkelijk in te voeren.
@@ -23,13 +28,17 @@ Je hoeft dan alleen nog maar de inkoopprijs , verkoopprijs en de locatie waar he
 ## Home
 
 * De pagina waar alles begint, vanaf hier kun je overal snel naar toe.
+* Bijv naar statistieken, voor meer details hierover, ga naar de statistieken pagina.
 * Hier kun je ook in 1 oogopslag zien of er nog openstaande orders zijn, en wanneer je voor het laatst een upload hebt gedaan naar boekwinkeltjes.
+
 
 
 ## Voorraad
 
 Als je naar deze pagina gaat, worden automatisch de 25 laatst gewijzigde producten opgehaald.
 Je kunt hier ook zelf zoeken, met nog 3 extra opties.
+
+![De Booki voorraad search](img\VoorraadSearch.png)
 
 * Zoeken alleen op voorraad, producten waar geen voorraad van is worden dan niet meer weergegeven.
 * Zoeken op Conditie (Nieuw of Tweedehands).
@@ -44,6 +53,20 @@ Als er producten gevonden zijn, kun je de belangrijkste gegevens zien.
 * Aantal, is het actuele aantal op voorraad.
 * Locatie, waar het boek wordt bewaard/staat in de winkel.
 * En de verkoopprijs inclusief btw in euros.
+
+## Product detail pagina
+
+Hier kun je alle gegevens van je product terugvinden. Om hier te komen moet je eerst het product zoeken in voorraad. 
+En dan op het boek icoontje klikken onder acties van je boek.
+
+Als je wijzigingen wilt aanbrengen aan een product doe je dat hier, bijv prijs aanpassen, notities maken bij een product.
+
+Grijs gekleurde gegevens zijn niet wijzigbaar. De gegevens die je hier zijn product eigen. Aantal bijvoorbeeld, is het totale aantal op
+voorraad, van welke leverancier maakt niks uit. Wil je weten van welke leveranciers je dit boek hebt, kijk dan in het log, De blauwe button met 
+de tekst "Toon log". Hier zie je precies welke in mutaties en uit mutaties er voor dit product zijn gedaan. 
+
+Boven de "Toon log" button, is de "Print label" button. Als je hier op klikt kun je labels uitprinten voor je product. **Let op** hier weten we dus niet voor welke
+mutatie je een label wilt printen. Je kunt van meerdere mutaties voorraad hebben. Kijk bij meerdere opties goed welke je moet hebben. 
 
 ## Invoer
  

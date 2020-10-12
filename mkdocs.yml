@@ -1,5 +1,10 @@
 site_name: Booki Documentatie
 
+nav:
+  - Home: index.md
+  - Statistieken: statistics.md 
+  - Instellingen: options.md
+
 theme: 
   name: cosmo
   
