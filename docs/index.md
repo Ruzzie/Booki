@@ -1,28 +1,28 @@
 # Welcome to Booki
 
 ---
-Booki is een online voorraad beheer systeem gespecialiseerd in publicaties. 
-Dit voor zowel nieuwe als tweedehands publicaties.
+Booki is een online voorraad beheer systeem gespecialiseerd in nieuwe en tweedehandse publicaties. 
 Booki maakt gebruik van een database waar alle ISBN registraties vanaf 1970 instaan. 
 Elke avond worden daar de nieuwste boeken aan toegevoegd. 
 
-Een publicatie invoeren is dus supersimpel. Selecteer of het gaat om een nieuw of tweedehandse publicatie, 
-scan de barcode en alle bij ons bekende gegevens worden vooraf ingevuld. 
-Je hoeft dan alleen nog maar de inkoopprijs , verkoopprijs en de locatie waar het boek staat op te geven.
+*Een publicatie invoeren heel eenvoudig.* 
+
+1. Selecteer of het gaat om een nieuw of tweedehandse publicatie, 
+2. Scan de barcode en alle bij ons bekende gegevens worden vooraf ingevuld. 
+3. Je hoeft dan alleen nog maar de inkoopprijs , verkoopprijs en de locatie waar het boek staat op te geven.
+
 ---
-
-
 
 ## Navigatie menu
 
 ![De Booki Navbar](img\BookiNavbar.png)
 
-* Home
-* Voorraad - Hier kun je al jouw artikelen bekijken die ooit zijn ingevoerd.
-* Invoer - De plek om al jouw nieuwe artikelen snel en makkelijk in te voeren.
-* Uitgaand - Hiermee ga je naar het afboeken van artikelen.
-* Orders - Naar orderoverzicht, hier kun je ook snel zien of er nieuwe orders zijn, en of er nog orders liggen die verzonden moeten worden.
-* Jouw bedrijfsnaam - Hieronder staan alle instellingen voor jouw bedrijf
+* **Home**
+* **Voorraad** - Hier kun je al jouw artikelen bekijken die ooit zijn ingevoerd.
+* **Invoer** - De plek om al jouw nieuwe artikelen snel en makkelijk in te voeren.
+* **Uitgaand** - Hiermee ga je naar het afboeken van artikelen.
+* **Orders** - Naar orderoverzicht, hier kun je ook snel zien of er nieuwe orders zijn, en of er nog orders liggen die verzonden moeten worden.
+* **Jouw bedrijfsnaam** - Hieronder staan alle instellingen voor jouw bedrijf
 * Uitloggen
 
 ## Home
@@ -35,7 +35,7 @@ Je hoeft dan alleen nog maar de inkoopprijs , verkoopprijs en de locatie waar he
 
 ## Voorraad
 
-Als je naar deze pagina gaat, worden automatisch de 25 laatst gewijzigde producten opgehaald.
+Als je naar deze pagina gaat, worden automatisch de 25 laatst gewijzigde producten getoond.
 Je kunt hier ook zelf zoeken, met nog 3 extra opties.
 
 ![De Booki voorraad search](img\VoorraadSearch.png)
@@ -62,25 +62,27 @@ En dan op het boek icoontje klikken onder acties van je boek.
 Als je wijzigingen wilt aanbrengen aan een product doe je dat hier, bijv prijs aanpassen, notities maken bij een product.
 
 Grijs gekleurde gegevens zijn niet wijzigbaar. De gegevens die je hier zijn product eigen. Aantal bijvoorbeeld, is het totale aantal op
-voorraad, van welke leverancier maakt niks uit. Wil je weten van welke leveranciers je dit boek hebt, kijk dan in het log, De blauwe button met 
+voorraad, van alle leveranciers. Wil je weten van welke leveranciers je dit boek hebt, kijk dan in het log, De blauwe button met 
 de tekst "Toon log". Hier zie je precies welke in mutaties en uit mutaties er voor dit product zijn gedaan. 
 
-Boven de "Toon log" button, is de "Print label" button. Als je hier op klikt kun je labels uitprinten voor je product. **Let op** hier weten we dus niet voor welke
-mutatie je een label wilt printen. Je kunt van meerdere mutaties voorraad hebben. Kijk bij meerdere opties goed welke je moet hebben. 
+Boven de "Toon log" button, is de "Print label" button. Als je hier op klikt kun je labels uitprinten voor je product. 
+
+!!! danger "Let op"
+	hier weten we dus niet voor welke mutatie je een label wilt printen. Je kunt van meerdere mutaties voorraad hebben. Kijk bij meerdere opties goed welke je moet hebben. 
 
 ## Invoer
  
  Voordat je kunt zoeken op Ean, moet je eerst het invoer type en conditie selecteren. Doe dit nauwkeurig, dit wordt allemaal bij de mutatie opgeslagen.
  
-* Aankoop : Ingekocht bij externe partij.
-* Correctie : Een boek dat kwijt was en weer wordt gevonden bijv.
-* Gecreeerd : Denk aan kaartjes voor een lezing.
-* Terug gebracht : Retour van verkocht artikel.
+* **Aankoop** : Ingekocht bij externe partij.
+* **Correctie** : Een boek dat kwijt was en weer wordt gevonden bijv.
+* **Gecreeerd** : Denk aan kaartjes voor een lezing.
+* **Terug gebracht** : Retour van verkocht artikel.
     
 Als je je selecties hebt gemaakt, scan dan de barcode van je artikel. En Booki gaat voor je op zoek.
 
 Als het boek al in je collectie is, dan worden de eerder ingevulde gegevens getoond. Staat het nog niet in je collectie dan worden 
-de belangrijkste gegevens die booki heeft getoond.
+de belangrijkste gegevens die Booki heeft getoond.
 
 Vul alleen nog de locatie, verkoopprijs, het aantal en de winstmarge in bij een nieuw product.
 
@@ -110,21 +112,21 @@ Geef altijd aan hoeveel producten je wilt afboeken (standaard op 1) en een omsch
 
 Een order kan 7 statussen hebben. De 5 waar iets meegedaan moet worden zijn hier in tabjes verdeeld :
 
-* Wachten op betaling : Mensen hebben een order geplaatst, maar nog niet betaald. Er kan wat tijd zitten tussen bevestiging van betalen en order plaatsen. 
+* **Wachten op betaling** : Mensen hebben een order geplaatst, maar nog niet betaald. Er kan wat tijd zitten tussen bevestiging van betalen en order plaatsen. 
 Orders die hier voor langere tijd staan kun je annuleren. De boeken in deze orders staan op gereserveerd. Die kunnen dus ook niet verkocht worden.
-* Betaald : Nieuwe orders die betaald zijn, komen hier terecht. Als er een gele vrachtwagen staat achter het order Id, betekent dat dat het om een verzend order gaat.
+* **Betaald** : Nieuwe orders die betaald zijn, komen hier terecht. Als er een gele vrachtwagen staat achter het order Id, betekent dat dat het om een verzend order gaat.
 Heb je de producten van de order verzameld, zet hem dan een status verder. De klant krijgt een mail, met order bevestiging. 
 En als het een ophaal order is, dan bevestiging dat de order opgehaald kan worden.
-* Klaar voor verzending : Als je de verzending hebt geregeld, dan zet je hem weer door, je kunt dan de track en trace invullen, 
+* **Klaar voor verzending** : Als je de verzending hebt geregeld, dan zet je hem weer door, je kunt dan de track en trace invullen, 
 die wordt weer in een mail naar de klant gestuurd.
-* Wordt opgehaald : Deze orders liggen klaar om opgehaald te worden, worden ze opgehaald. Zet hem dan door, en de order komt op status afgehandeld en in het archief.
+* **Wordt opgehaald** : Deze orders liggen klaar om opgehaald te worden, worden ze opgehaald. Zet hem dan door, en de order komt op status afgehandeld en in het archief.
 Er wordt nog een mail naar de klant gestuurd dat de order is opgehaald.
-* Verzonden : Deze orders zijn verzonden, je kunt ze doorzetten of nog even laten staan tot het pakket is aangekomen.
+* **Verzonden** : Deze orders zijn verzonden, je kunt ze doorzetten of nog even laten staan tot het pakket is aangekomen.
     
 De overige 2 statussen zijn :
 
-* Afgehandeld
-* Geannuleerd  
+* **Afgehandeld**
+* **Geannuleerd**  
   
 Deze kun je bekijken als je het order nummer weet, dit doe je door het ordernummer te typen in de zoekbar, boven de status tabs. Als er een order wordt gevonden met het Id,
 dan kom je meteen in het detail overzicht van de order. Zie volgende onderwerp.

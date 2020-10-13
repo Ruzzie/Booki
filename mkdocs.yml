@@ -7,4 +7,5 @@ nav:
 
 theme: 
   name: cosmo
-  
+markdown_extensions:
+  - admonition  
