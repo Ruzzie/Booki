@@ -5,7 +5,7 @@ Booki is een online voorraad beheer systeem gespecialiseerd in nieuwe en tweedeh
 Booki maakt gebruik van een database waar alle ISBN registraties vanaf 1970 instaan. 
 Elke avond worden daar de nieuwste boeken aan toegevoegd. 
 
-*Een publicatie invoeren heel eenvoudig.* 
+*Een publicatie invoeren is heel eenvoudig.* 
 
 1. Selecteer of het gaat om een nieuw of tweedehandse publicatie, 
 2. Scan de barcode en alle bij ons bekende gegevens worden vooraf ingevuld. 
