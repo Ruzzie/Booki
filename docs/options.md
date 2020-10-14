@@ -24,16 +24,19 @@ Om de groep uit het voorbeeld aan te maken, een aantal stappen volgen.
 
 Groepen kun je wijzigen, stel je maakt een nieuwe indeling en kast3 uit kamer1, verhuist naar kamer2, maar je laat dezelfde producten in de kast staan. 
 Dan wijzig je de 'Valt onder deze groep' naar kamer2. Groepen kunnen ook verwijderd worden. 
-**Let op**, dit kan alleen als geen enkel product staat geregistreerd
-op deze locatie. Dit geld ook voor producten die op nul staan.
+
+!! danger "Let op!" 
+    Dit kan alleen als geen enkel product staat geregistreerd op deze locatie. Dit geldt ook voor producten die op nul staan.
 
 
 ## Leveranciers beheren
 
 Hier kun je je leveranciers aanmaken waar je uit kunt kiezen bij het invoeren van nieuwe producten. Om te beginnen klik op de blauwe +.
 Bij Code vul je de naam van de leverancier in. Bij type of het een zakelijke, particuliere of ander soort leverancier is. Alles ingevuld, klik dan op de blauwe 
-diskette en je je hebt een leverancier toegevoegd. Bestaande leveranciers kunnen gewijzigd worden en verwijderd. **Let op**, verwijderen kan alleen als de leverancier nog
-niet gebruikt is.
+diskette en je je hebt een leverancier toegevoegd. Bestaande leveranciers kunnen gewijzigd worden en verwijderd. 
+
+!!! danger "Let op!"
+    Verwijderen kan alleen als de leverancier nog niet gebruikt is.
 
 
 ## Tags beheren
@@ -54,7 +57,10 @@ Mischien heb je gesigneerde producten, zet er een tag 'gesigneerd' op, en je vin
 ```
 
 Om een nieuwe tag aan te maken, klik op de blauwe +. Vul een naam voor de tag in, en sla op. Je vind je tag nu terug in de lijst. 
-Je kunt natuurlijk ook hier weer je naam van de tag wijzigen, of de tag verwijderen. **Let op**, Tags die in gebruik zijn, kunnen niet verwijderd worden.
+Je kunt natuurlijk ook hier weer je naam van de tag wijzigen, of de tag verwijderen. 
+
+!!! danger "Let op!" 
+    Tags die in gebruik zijn, kunnen niet verwijderd worden.
 
 Producten kunnen meerdere tags hebben.
 
@@ -100,7 +106,10 @@ Maak je gebruik van een Booki-Webshop. Dan staan hier al je gevens die daar mee 
 
 Het eerste gedeelte heeft te maken met het verzenden van producten. Wat de verzendkosten zijn, en boven welk bedrag jullie gratis verzenden.
 
-Hierna staan de gegevens van de betaal provider, er moet namelijk wel betaald worden. **Let op!** maak je hier een verkeerde wijziging dan kan er niet meer betaald worden op je website.
+Hierna staan de gegevens van de betaal provider, er moet namelijk wel betaald worden. 
+
+!!! danger "Let op!" 
+    Maak je hier een verkeerde wijziging dan kan er niet meer betaald worden op je website.
 
 Vervolgens staan er de website instelling, het basisurl, de titel, omschrijving en sleutel woorden. Dit wordt onder andere gebruikt om beter gevonden te worden op het internet.
 

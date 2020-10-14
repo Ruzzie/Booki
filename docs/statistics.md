@@ -3,7 +3,7 @@
 ## Verkoopcijfers
 
 Hier kun je per Dag / Week / Maand / Jaar de uit mutaties bekijken. Dus eigenlijk welke producten zijn verkocht, afgeboekt, etc. 
-Alles wat een uitgaand product is. Van elk uitgaand product worden een aantal details gegeven.
+Alles wat een uitgaand product is. Van elk uitgaand product worden een aantal details weergegeven.
 
 * ean
 * titel met auteur

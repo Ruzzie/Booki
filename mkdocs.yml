@@ -4,6 +4,7 @@ nav:
   - Home: index.md
   - Statistieken: statistics.md 
   - Instellingen: options.md
+  - FAQ: faqs.md
 
 theme: 
   name: cosmo

@@ -18,9 +18,9 @@ Elke avond worden daar de nieuwste boeken aan toegevoegd.
 ![De Booki Navbar](img\BookiNavbar.png)
 
 * **Home**
-* **Voorraad** - Hier kun je al jouw artikelen bekijken die ooit zijn ingevoerd.
-* **Invoer** - De plek om al jouw nieuwe artikelen snel en makkelijk in te voeren.
-* **Uitgaand** - Hiermee ga je naar het afboeken van artikelen.
+* **Voorraad** - Hier kun je al jouw producten bekijken die ooit zijn ingevoerd.
+* **Invoer** - De plek om al jouw nieuwe producten snel en makkelijk in te voeren.
+* **Uitgaand** - Hiermee ga je naar het afboeken van producten.
 * **Orders** - Naar orderoverzicht, hier kun je ook snel zien of er nieuwe orders zijn, en of er nog orders liggen die verzonden moeten worden.
 * **Jouw bedrijfsnaam** - Hieronder staan alle instellingen voor jouw bedrijf
 * Uitloggen
@@ -35,24 +35,28 @@ Elke avond worden daar de nieuwste boeken aan toegevoegd.
 
 ## Voorraad
 
-Als je naar deze pagina gaat, worden automatisch de 25 laatst gewijzigde producten getoond.
+Als je naar deze pagina gaat, worden automatisch de 25 laatst gewijzigde producten getoond. Ook als de voorraad 0 is.
 Je kunt hier ook zelf zoeken, met nog 3 extra opties.
 
 ![De Booki voorraad search](img\VoorraadSearch.png)
 
-* Zoeken alleen op voorraad, producten waar geen voorraad van is worden dan niet meer weergegeven.
+* Zoeken 'alleen op voorraad', producten waar geen voorraad van is worden dan niet meer weergegeven.
 * Zoeken op Conditie (Nieuw of Tweedehands).
 * Zoeken op een tag.
 
 Natuurlijk zijn deze opties te combineren.
 
-Als er producten gevonden zijn, kun je de belangrijkste gegevens zien. 
+Als er producten gevonden zijn, kun je de belangrijkste gegevens per product bekijken in de tabel. Wil je de samenvatting lezen van een
+product, blijf dan met de muis even stil staan op het product van keuze, en een samenvatting zal te voorschijn komen. 
 
 * Titel, auteur en ean.
 * Type is de conditie, Nieuw of Tweedehands(Als nieuw, Goed, Redelijk, Matig)
 * Aantal, is het actuele aantal op voorraad.
 * Locatie, waar het boek wordt bewaard/staat in de winkel.
 * En de verkoopprijs inclusief btw in euros.
+* Onder acties staat de knop om naar de product detail pagina van dat product te gaan.
+
+Om goed te kunnen zoeken in je voorraad moet je weten hoe Booki zoekt, voor meer informatie hierover, ga naar FAQ en dan naar zoeken in voorraad.
 
 ## Product detail pagina
 
@@ -61,13 +65,13 @@ En dan op het boek icoontje klikken onder acties van je boek.
 
 Als je wijzigingen wilt aanbrengen aan een product doe je dat hier, bijv prijs aanpassen, notities maken bij een product.
 
-Grijs gekleurde gegevens zijn niet wijzigbaar. De gegevens die je hier zijn product eigen. Aantal bijvoorbeeld, is het totale aantal op
+Grijs gekleurde gegevens zijn niet wijzigbaar. De gegevens die je hier ziet zijn product eigen. Aantal bijvoorbeeld, is het totale aantal op
 voorraad, van alle leveranciers. Wil je weten van welke leveranciers je dit boek hebt, kijk dan in het log, De blauwe button met 
 de tekst "Toon log". Hier zie je precies welke in mutaties en uit mutaties er voor dit product zijn gedaan. 
 
 Boven de "Toon log" button, is de "Print label" button. Als je hier op klikt kun je labels uitprinten voor je product. 
 
-!!! danger "Let op"
+!!! danger "Let op!"
 	hier weten we dus niet voor welke mutatie je een label wilt printen. Je kunt van meerdere mutaties voorraad hebben. Kijk bij meerdere opties goed welke je moet hebben. 
 
 ## Invoer
@@ -76,12 +80,12 @@ Boven de "Toon log" button, is de "Print label" button. Als je hier op klikt kun
  
 * **Aankoop** : Ingekocht bij externe partij.
 * **Correctie** : Een boek dat kwijt was en weer wordt gevonden bijv.
-* **Gecreeerd** : Denk aan kaartjes voor een lezing.
-* **Terug gebracht** : Retour van verkocht artikel.
+* **Gecreëerd** : Denk aan kaartjes voor een lezing.
+* **Terug gebracht** : Retour van een verkocht artikel.
     
-Als je je selecties hebt gemaakt, scan dan de barcode van je artikel. En Booki gaat voor je op zoek.
+Als je je selecties hebt gemaakt, scan dan het ean nummer van je product. En Booki gaat voor je op zoek.
 
-Als het boek al in je collectie is, dan worden de eerder ingevulde gegevens getoond. Staat het nog niet in je collectie dan worden 
+Als het product al in je collectie zit, dan worden de eerder ingevulde gegevens getoond. Staat het nog niet in je collectie dan worden 
 de belangrijkste gegevens die Booki heeft getoond.
 
 Vul alleen nog de locatie, verkoopprijs, het aantal en de winstmarge in bij een nieuw product.
@@ -99,11 +103,12 @@ Kies je mutatie type. Dit is de reden van afboeken. Het kan om een verkoop gaan,
 
 Je kunt hier zoeken op ean, of op de uitgeprinte label die op het boek wordt geplakt.
 
-Voordeel van de label is, dat er altijd maar 1 uniek product wordt gevonden. Je komt dus altijd meteen in het afboekscherm.
+Voordeel van de label is, dat er altijd maar 1 uniek product wordt gevonden. Je gaat dan altijd meteen naar het afboekscherm.
 
-Zoek je op ean, dan kunnen er meerdere producten worden gevonden. Een zelfde boek kan namelijk een andere conditie hebben.
-Als je dan een product hebt gekozen, kunnen er van dat product ook nog verschillende mutaties zijn. Hier moet je weer een keuze uitmaken.
-Dan kom je in het afboekscherm.
+Zoek je op ean, dan kunnen er meerdere producten worden gevonden. Een zelfde product kan namelijk een andere conditie hebben. Booki maakt hier onderscheid in.
+Maak een keuze als er meerdere producten zijn gevonden en vervolgens kan het nog zijn, dat er meerdere mutaties van je gekozen product op voorraad zijn.
+Als je al nieuwe producten hebt binnengekegen voordat de oude op zijn bijv. Maak een keuze uit de mutaties en dan kom je in het afboekscherm. Wordt er maar 1 product
+of mutatie gevonden, dan slaat Booki deze stappen automatisch over.
 
 In het afboekscherm staan weer de meest gebruikelijke gegevens van het product. 
 Geef altijd aan hoeveel producten je wilt afboeken (standaard op 1) en een omschrijving van de mutatie.
@@ -112,14 +117,15 @@ Geef altijd aan hoeveel producten je wilt afboeken (standaard op 1) en een omsch
 
 Een order kan 7 statussen hebben. De 5 waar iets meegedaan moet worden zijn hier in tabjes verdeeld :
 
-* **Wachten op betaling** : Mensen hebben een order geplaatst, maar nog niet betaald. Er kan wat tijd zitten tussen bevestiging van betalen en order plaatsen. 
-Orders die hier voor langere tijd staan kun je annuleren. De boeken in deze orders staan op gereserveerd. Die kunnen dus ook niet verkocht worden.
+* **Wachten op betaling** : Een klant heeft een order geplaatst, maar nog niet betaald. Er kan wat tijd zitten tussen bevestiging van betalen en order plaatsen. 
+Orders die hier voor langere tijd staan kun je annuleren. De boeken in deze orders staan op gereserveerd. Die kunnen dus ook niet verkocht worden tot dat je de order annuleerd.
+Als je een order annuleerd, geef dan een reden op, deze reden wordt naar de klant gestuurd in een mail.
 * **Betaald** : Nieuwe orders die betaald zijn, komen hier terecht. Als er een gele vrachtwagen staat achter het order Id, betekent dat dat het om een verzend order gaat.
 Heb je de producten van de order verzameld, zet hem dan een status verder. De klant krijgt een mail, met order bevestiging. 
 En als het een ophaal order is, dan bevestiging dat de order opgehaald kan worden.
 * **Klaar voor verzending** : Als je de verzending hebt geregeld, dan zet je hem weer door, je kunt dan de track en trace invullen, 
 die wordt weer in een mail naar de klant gestuurd.
-* **Wordt opgehaald** : Deze orders liggen klaar om opgehaald te worden, worden ze opgehaald. Zet hem dan door, en de order komt op status afgehandeld en in het archief.
+* **Wordt opgehaald** : Deze orders liggen klaar om opgehaald te worden. Worden ze opgehaald, zet ze dan door, en de order komt op de status afgehandeld en in het archief.
 Er wordt nog een mail naar de klant gestuurd dat de order is opgehaald.
 * **Verzonden** : Deze orders zijn verzonden, je kunt ze doorzetten of nog even laten staan tot het pakket is aangekomen.
     
@@ -133,7 +139,7 @@ dan kom je meteen in het detail overzicht van de order. Zie volgende onderwerp.
 
 ## Order detail scherm 
 
-Hier zie je de details van de bestelling, de producten, de gegevens van de klant en de status van de order. De eerste regel bij de producten is de barcode.
+Hier zie je de details van de bestelling, de producten, de gegevens van de klant en de status van de order. De eerste regel bij de producten is de barcode van het product.
 Zorg ervoor dat je het juiste product uit de voorraad pakt. 
 
     Bijv barcode : 9789079677726-I-0000004489.
