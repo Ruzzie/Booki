@@ -32,10 +32,9 @@ Elke avond worden daar de nieuwste boeken aan toegevoegd.
 * Hier kun je ook in 1 oogopslag zien of er nog openstaande orders zijn, en wanneer je voor het laatst een upload hebt gedaan naar boekwinkeltjes.
 
 
-
 ## Voorraad
 
-Als je naar deze pagina gaat, worden automatisch de 25 laatst gewijzigde producten getoond. Ook als de voorraad 0 is.
+Als je naar deze pagina gaat, of als je op de refresh knop drukt, worden automatisch de 25 laatst gewijzigde producten getoond. 
 Je kunt hier ook zelf zoeken, met nog 3 extra opties.
 
 ![De Booki voorraad search](img\VoorraadSearch.png)
@@ -56,7 +55,9 @@ product, blijf dan met de muis even stil staan op het product van keuze, en een 
 * En de verkoopprijs inclusief btw in euros.
 * Onder acties staat de knop om naar de product detail pagina van dat product te gaan.
 
-Om goed te kunnen zoeken in je voorraad moet je weten hoe Booki zoekt, voor meer informatie hierover, ga naar FAQ en dan naar zoeken in voorraad.
+De gevonden producten staan gesorteerd op hoe goed ze voldoen aan jouw zoekopdracht. De best matchende staat bovenaan.
+
+Voor meer informatie over hoe het beste te zoeken in Booki, ga naar de [FAQ pagina](faqs.md) en klik daar op het hoofdstuk "Zoeken in Booki voorraad".
 
 ## Product detail pagina
 
