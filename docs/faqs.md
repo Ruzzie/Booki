@@ -15,9 +15,9 @@ Komt binnenkort.
 ## Zoeken in Booki voorraad
 
 De zoek functie op de voorraad pagina maakt gebruik van een zogenoemde "Boolean Search". Deze manier van zoeken maakt het mogelijk om slimme dingen te doen in je zoekopdracht.
-Elk woord dat je typt, daar zal apart op gezocht worden. De resultaten die bovenaan staan, hebben jouw getypte het vaakst in hun tekst.
+Elk woord dat je typt, daar zal apart op gezocht worden. De resultaten die bovenaan in de lijst staan, hebben jouw getypte woorden het vaakst in hun tekst.
 
-Als een van jouw woorden niet zou voorkomen in een resultaat, kan het nog steeds bovenaan komen te staan, als de andere woorden er heel vaak instaan.
+Als een van jouw woorden niet zou voorkomen in een resultaat, kan dat resultaat nog steeds bovenaan komen te staan, als de andere woorden er heel vaak instaan.
 
 Wil je echt specifiek zoeken op een titel. Zet dan je woorden tussen "". Dan zoekt Booki alleen op de complete tekst, en niet op ieder apart woord.
 

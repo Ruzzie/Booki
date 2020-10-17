@@ -119,7 +119,7 @@ Geef altijd aan hoeveel producten je wilt afboeken (standaard op 1) en een omsch
 Een order kan 7 statussen hebben. De 5 waar iets meegedaan moet worden zijn hier in tabjes verdeeld :
 
 * **Wachten op betaling** : Een klant heeft een order geplaatst, maar nog niet betaald. Er kan wat tijd zitten tussen bevestiging van betalen en order plaatsen. 
-Orders die hier voor langere tijd staan kun je annuleren. De boeken in deze orders staan op gereserveerd. Die kunnen dus ook niet verkocht worden tot dat je de order annuleerd.
+Orders die hier voor langere tijd staan kun je annuleren. De boeken in deze orders staan op gereserveerd. Ze zijn specifiek voor deze order en kunnen dus ook niet verkocht worden tot dat je de order annuleerd.
 Als je een order annuleerd, geef dan een reden op, deze reden wordt naar de klant gestuurd in een mail.
 * **Betaald** : Nieuwe orders die betaald zijn, komen hier terecht. Als er een gele vrachtwagen staat achter het order Id, betekent dat dat het om een verzend order gaat.
 Heb je de producten van de order verzameld, zet hem dan een status verder. De klant krijgt een mail, met order bevestiging. 
