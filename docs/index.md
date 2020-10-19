@@ -1,11 +1,11 @@
-# Welcome to Booki
+# Booki
 
 ---
 Booki is een online voorraad beheer systeem gespecialiseerd in nieuwe en tweedehandse publicaties. 
 Booki maakt gebruik van een database waar alle ISBN registraties vanaf 1970 instaan. 
 Elke avond worden daar de nieuwste boeken aan toegevoegd. 
 
-*Een publicatie invoeren is heel eenvoudig.* 
+>Een publicatie invoeren is heel eenvoudig
 
 1. Selecteer of het gaat om een nieuw of tweedehandse publicatie, 
 2. Scan de barcode en alle bij ons bekende gegevens worden vooraf ingevuld. 
@@ -18,11 +18,11 @@ Elke avond worden daar de nieuwste boeken aan toegevoegd.
 ![De Booki Navbar](img\BookiNavbar.png)
 
 * **Home**
-* **Voorraad** - Hier kun je al jouw producten bekijken die ooit zijn ingevoerd.
-* **Invoer** - De plek om al jouw nieuwe producten snel en makkelijk in te voeren.
-* **Uitgaand** - Hiermee ga je naar het afboeken van producten.
-* **Orders** - Naar orderoverzicht, hier kun je ook snel zien of er nieuwe orders zijn, en of er nog orders liggen die verzonden moeten worden.
-* **Jouw bedrijfsnaam** - Hieronder staan alle instellingen voor jouw bedrijf
+* **Voorraad** Hier kun je alle producten bekijken die ooit zijn ingevoerd.
+* **Invoer** De plek om alle nieuwe producten snel en makkelijk in te voeren.
+* **Uitgaand** Hiermee ga je naar het afboeken van producten.
+* **Orders** Naar orderoverzicht, hier kun je ook snel zien of er nieuwe orders zijn en of er nog orders liggen die verzonden moeten worden.
+* **Bedrijfsnaam** Hieronder staan alle instellingen voor het bedrijf
 * Uitloggen
 
 ## Home
@@ -119,8 +119,8 @@ Geef altijd aan hoeveel producten je wilt afboeken (standaard op 1) en een omsch
 Een order kan 7 statussen hebben. De 5 waar iets meegedaan moet worden zijn hier in tabjes verdeeld :
 
 * **Wachten op betaling** : Een klant heeft een order geplaatst, maar nog niet betaald. Er kan wat tijd zitten tussen bevestiging van betalen en order plaatsen. 
-Orders die hier voor langere tijd staan kun je annuleren. De boeken in deze orders staan op gereserveerd. Ze zijn specifiek voor deze order en kunnen dus ook niet verkocht worden tot dat je de order annuleerd.
-Als je een order annuleerd, geef dan een reden op, deze reden wordt naar de klant gestuurd in een mail.
+Orders die hier voor langere tijd staan kun je annuleren. De boeken in deze orders staan op gereserveerd. Ze zijn specifiek voor deze order en kunnen dus ook niet verkocht worden tot dat je de order annuleert.
+Als je een order annuleert, geef dan een reden op, deze reden wordt naar de klant gestuurd in een mail.
 * **Betaald** : Nieuwe orders die betaald zijn, komen hier terecht. Als er een gele vrachtwagen staat achter het order Id, betekent dat dat het om een verzend order gaat.
 Heb je de producten van de order verzameld, zet hem dan een status verder. De klant krijgt een mail, met order bevestiging. 
 En als het een ophaal order is, dan bevestiging dat de order opgehaald kan worden.
