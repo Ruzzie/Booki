@@ -27,8 +27,8 @@ Als een van jouw woorden niet zou voorkomen in een resultaat, kan dat resultaat 
 
 Wil je echt specifiek zoeken op een titel. Zet dan je woorden tussen "". Dan zoekt Booki alleen op de complete tekst, en niet op ieder apart woord.
 
-Zoek je op tantra en paarden. Dan kun je een heleboel titels krijgen die tantra niet eens bevatten. Wil je er zeker van zijn dat elk resultaat met tantra te maken heeft,
-zet dan een '+' voor het woord tantra. **+tantra** paarden. Nu zal elk resultaat tantra bevatten. Zo zijn er meer slimme trucjes, zie de voorbeelden.
+Zoek je op bomen en paarden. Dan kun je veel titels krijgen waar de term 'bomen' niet eens in voorkomt. Wil je er zeker van zijn dat elk resultaat het woord 'bomen' bevat.
+Zet dan een '+' voor het woord bomen. **+bomen** paarden. Nu zal elk resultaat bomen bevatten. Zo zijn er meer slimme trucjes, zie de voorbeelden.
 
 
 Voorbeelden :
