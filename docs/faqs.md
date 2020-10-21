@@ -6,11 +6,17 @@ onder een andere conditie.
 
 ## Wat als ik geen ean nummer heb voor mijn product.
 
-Komt binnenkort.
+Als u gebruik maakt van het kassa systeem waarmee Booki is geïntegreerd, en het product is geen publicatie. Dan is het het handigst om het product op de kassa in te voeren.
+
+Maakt u geen gebruik van het kassa systeem, en of het gaat wel om een publicatie zonder ean. Dan staat het u vrij om zelf een ean te creëren. Gebruik hiervoor een
+online ean generator. Op dit moment wordt er echter wel gezocht naar informatie over dit ean, het kan dus zijn dat na het zoeken bij het invoeren er onjuiste informatie wordt verstrekt.
+Zorg dat je deze verwijderd/vervangt. Als er een plaatje wordt gevonden, is deze helaas niet te verwijderen, probeer het nogmaals met een ander ean nummer. 
 
 ## Mijn product wordt niet gevonden door Booki, maar ik wil het wel invoeren.
 
-Komt binnenkort.
+Als je product niet wordt gevonden, en je hebt geen error gehad bij het invoeren, dan gaat het hier om een geldig Ean nummer. Booki heeft helaas geen gegevens die horen bij dit nummer.
+Dus je kunt dit nummer gewoon invullen, we hebben alleen helaas geen vooraf ingevulde informatie. Als je alle velden hebt ingevuld, kun je na het opslaan nog even kijken in de 
+productdetails pagina van dit product of er nog meer velden zijn die je wilt invoeren.
 
 ## Zoeken in Booki voorraad
 
@@ -44,4 +50,5 @@ Zoekt producten die de hele zin "appel banaan" bevatten.
 
 ## Hoe meld ik fouten.
 
-Komt binnenkort.
+Als je denkt dat er iets niet klopt, of je krijgt een systeem fout. Maak dan altijd een foto, stuur deze op en geef een beschrijving van wat je aan het doen was.
+Wij gaan er zo snel mogelijk mee aan de slag en je krijgt altijd een reactie terug van ons.
