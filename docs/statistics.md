@@ -45,3 +45,31 @@ De producten staan ingedeeld per type(conditie van het product). Nieuw zijn natu
 Aantal op voorraad, zijn totalen. Dus van een zelfde product waar je er 10 van op voorraad hebt, tellen ze alle 10 mee. 
 
 Totale inkoopprijs, zijn alle inkoopprijzen per categorie bij elkaar opgeteld. 
+
+## Alle rapporten (Nieuw)
+
+Deze pagina is zo gemaakt dat er allerlei soorten rapporten snel weer kunnen worden gegeven. Helaas is niet ieder rapport hiervoor geschikt. Maar er zijn veel mogelijkheden. 
+Zijn er dus rapporten die Booki nog niet heeft, en die je graag terug zou zien in Booki. 
+Neem dan contact met ons op, en dan zullen wij de mogelijkheden bekijken. 
+
+Maak eerst een rapportage keuze, aan de hand van het rapport dat je kiest, kan het zijn dat er meer gegevens moeten worden gegeven. Zoals een locatie, of een van tot datum.
+
+![De Booki Navbar](img\DatePicker.png)
+
+Hierboven zie je de datumprikker, hier moet je een periode aangeven. Kies eerst een startdatum, en dan de einddatum. 
+De datums die je kiest zijn inclusief. Als je een peridoe hebt gekozen, klik je op 'apply'. Wil je de datum wijzigen, klik dan gewoon weer op je gekozen datum en het menu opent zich weer.
+De datumprikker bevat ook vooraf gemaakte periodes, zoals gisteren, vorige week, dit jaar, vorig jaar enz.
+
+Niet elk rapport heeft aanvullende informatie nodig.
+
+
+Elk rapport kan ook nog een extra omschrijving hebben, als een rapport deze heeft, kun je hem zien boven de 'Toon rapport' knop.
+
+Als je alle gegevens voor een rapport hebt ingevuld, wordt de 'Toon rapport' knop actief, als je vervolgens hier op drukt wordt het rapport opgehaald en weergegeven.
+
+Als je hetzelfde rapport wilt zien, maar met een andere datum of locatie, kies dan gewoon een andere locatie of datum, en klik weer op de 'Toon rapport' knop.
+
+Wil je een ander rapport, kies dan een ander rapport, en herhaal bovenstaande stappen.
+
+
+

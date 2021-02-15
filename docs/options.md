@@ -98,7 +98,13 @@ Maak je gebruik van Boekwinkeltjes, dan kun je hier je boekwinkeltjes gegevens i
 Verkoop je 10 boeken in de winkel, en wil je deze van boekwinkeltjes halen. Dan ga je naar het home scherm, en klik je op "Upload naar Boekwinkeltjes ftp".
 Helaas duurt het wel ongeveer 2-3 uur voordat boekwinkeltjes de wijzigingen heeft doorgevoerd.
 
-In het onderste veld zie je de laatste datum van upload naar boekwinkeltjes, deze datum zie je ook op de home pagina. Langer dan een dag geleden? Aarzel dan niet en druk op de upload knop.
+In het onderste veld zie je de laatste datum van upload naar boekwinkeltjes, deze datum zie je ook op de home pagina. Langer dan een dag geleden? 
+Aarzel dan niet en druk op de upload knop op het home scherm van Booki.
+
+!!! danger "Let op!"
+    Je abonnement bij boekwinkeltes moet wel groot genoeg zijn. Wil je 5000 titels uploaden, dan moet je dus ook een abonnement bij boekwinkeltjes hebben voor 5000 titels.
+    Boekwinkeltjes telt overigens per EAN-nummer. Heb je 5 exemplaren van 1 EAN-nummer, dan telt dit voor boekwinkeltjes als 1 titel. 
+    Wil je weten hoeveel boeken je precies geupload hebt naar boekwinkeltjes, kijk dan even bij je instelling op boekwinkeltjes zelf. Dan zie je ook meteen hoeveel ruimte je nog hebt.
 
 #### Ecommerce settings
 
@@ -116,3 +122,5 @@ Vervolgens staan er de website instelling, het basisurl, de titel, omschrijving 
 En als laatste de email settings. Hier staan de templates die verzonden worden als orders betaald zijn, verzonden worden enz. Een wijziging hier, wijzigt de mail die de klant krijgt.
 Antwoord Email adres is het adres waar klanten op terecht komen als ze replyen op een automatisch verzonden mailtje.
 Meldingen email adres is het adres waar een notificatie voor een nieuwe order terechtkomt.
+
+Wil je hier wijzigingen aanbrengen ? Neem dan eerst even contact met ons op. Wij leggen graag uit, of helpen je mee om een veranderingen aan te brengen in de mails.
