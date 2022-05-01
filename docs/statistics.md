@@ -46,7 +46,7 @@ Aantal op voorraad, zijn totalen. Dus van een zelfde product waar je er 10 van o
 
 Totale inkoopprijs, zijn alle inkoopprijzen per categorie bij elkaar opgeteld. 
 
-## Alle rapporten (Nieuw)
+## Alle rapporten
 
 Deze pagina is zo gemaakt dat er allerlei soorten rapporten snel weer kunnen worden gegeven. Helaas is niet ieder rapport hiervoor geschikt. Maar er zijn veel mogelijkheden. 
 Zijn er dus rapporten die Booki nog niet heeft, en die je graag terug zou zien in Booki. 
@@ -63,13 +63,15 @@ De datumprikker bevat ook vooraf gemaakte periodes, zoals gisteren, vorige week,
 Niet elk rapport heeft aanvullende informatie nodig.
 
 
-Elk rapport kan ook nog een extra omschrijving hebben, als een rapport deze heeft, kun je hem zien boven de 'Toon rapport' knop.
+Elk rapport kan ook nog een extra omschrijving/uitleg hebben, deze is te zien boven de 'Toon rapport' knop.
 
 Als je alle gegevens voor een rapport hebt ingevuld, wordt de 'Toon rapport' knop actief, als je vervolgens hier op drukt wordt het rapport opgehaald en weergegeven.
 
 Als je hetzelfde rapport wilt zien, maar met een andere datum of locatie, kies dan gewoon een andere locatie of datum, en klik weer op de 'Toon rapport' knop.
 
 Wil je een ander rapport, kies dan een ander rapport, en herhaal bovenstaande stappen.
+
+Elk rapport is ook te downloaden als csv. Dit kan als wat je op je scherm ziet, maar ook als een uitgebreide csv met nog veel meer informatie.
 
 
 

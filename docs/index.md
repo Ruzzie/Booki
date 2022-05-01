@@ -21,16 +21,17 @@ Elke avond worden daar de nieuwste boeken aan toegevoegd.
 * **Voorraad** Hier kun je alle producten bekijken die ooit zijn ingevoerd.
 * **Invoer** De plek om alle nieuwe producten snel en makkelijk in te voeren.
 * **Uitgaand** Hiermee ga je naar het afboeken van producten.
+*  **Sneluitvoer** Hier kun je meerdere producten tegelijk uitvoeren.
 * **Orders** Naar orderoverzicht, hier kun je ook snel zien of er nieuwe orders zijn en of er nog orders liggen die verzonden moeten worden.
-* **Bedrijfsnaam** Hieronder staan alle instellingen voor het bedrijf
-* Uitloggen
+* **Jouw bedrijfsnaam** Hieronder staan alle instellingen voor het bedrijf
+* **Uitloggen**
 
 ## Home
 
 * De pagina waar alles begint, vanaf hier kun je overal snel naar toe.
 * Bijv naar statistieken, voor meer details hierover, ga naar de statistieken pagina.
 * Hier kun je ook in 1 oogopslag zien of er nog openstaande orders zijn, en wanneer je voor het laatst een upload hebt gedaan naar boekwinkeltjes.
-
+* Onderaan staat een handige grafiek over een heel jaar van je omzet en verkopen per dag. Waarin je in 1 oogopslag kunt zien aan de hand van de kleur hoe goed die dag was.
 
 ## Voorraad
 
@@ -40,8 +41,9 @@ Je kunt hier ook zelf zoeken, met nog 3 extra opties.
 ![De Booki voorraad search](img\VoorraadSearch.png)
 
 * Zoeken 'alleen op voorraad', producten waar geen voorraad van is worden dan niet meer weergegeven.
-* Zoeken op Conditie (Nieuw of Tweedehands).
-* Zoeken op een tag.
+* Zoeken op Conditie (Nieuw, Tweedehands of Ramsj).
+* Zoeken op een zelftoegevoegde tag.
+* Andere filter opties, hierin kan van alles worden toegevoegd. Is er iets waar je graag op zou willen zoeken, laat het ons weten.
 
 Natuurlijk zijn deze opties te combineren.
 
@@ -49,7 +51,7 @@ Als er producten gevonden zijn, kun je de belangrijkste gegevens per product bek
 product, blijf dan met de muis even stil staan op het product van keuze, en een samenvatting zal te voorschijn komen. 
 
 * Titel, auteur en ean.
-* Type is de conditie, Nieuw of Tweedehands(Als nieuw, Goed, Redelijk, Matig)
+* Type is de conditie, Nieuw, Ramsj of Tweedehands(Als nieuw, Goed, Redelijk, Matig)
 * Aantal, is het actuele aantal op voorraad.
 * Locatie, waar het boek wordt bewaard/staat in de winkel.
 * En de verkoopprijs inclusief btw in euros.
@@ -75,6 +77,14 @@ Boven de "Toon log" button, is de "Print label" button. Als je hier op klikt kun
 !!! danger "Let op!"
 	hier weten we dus niet voor welke mutatie je een label wilt printen. Je kunt van meerdere mutaties voorraad hebben. Kijk bij meerdere opties goed welke je moet hebben. 
 
+Hier kun je ook een aanbieding maken van je product. Als je een aanbieding maakt van je product, wordt dit op de label en op de website weergegeven.
+
+![De Booki voorraad search](img\AanbiedingLabel.png) ![De Booki voorraad search](img\WebshopDiscountProduct.png)
+
+Als je wijzigingen maakt in gegevens die op het label staan, zul je dus voor elk product een nieuw label moeten uitprinten. Maar dit hoeft niet. De barcode veranderd namelijk niet.
+
+De verandering op de website hoef je helemaal niks voor te doen, dat gaat allemaal automatisch.
+
 ## Invoer
  
  Voordat je kunt zoeken op Ean, moet je eerst het invoer type en conditie selecteren. Doe dit nauwkeurig, dit wordt allemaal bij de mutatie opgeslagen.
@@ -83,6 +93,8 @@ Boven de "Toon log" button, is de "Print label" button. Als je hier op klikt kun
 * **Correctie** : Een boek dat kwijt was en weer wordt gevonden bijv.
 * **Gecreëerd** : Denk aan kaartjes voor een lezing.
 * **Terug gebracht** : Retour van een verkocht artikel.
+
+Hier is ook de mogelijkheid om 'Snelle locatie' aan te zetten. Ga je een hele reeks boeken voor 1 locatie invoeren, zet dit dan aan. Zodat je de locatie maar 1x hoeft te selecteren. Maar **LET OP** vergeet dit niet weer uit te zetten als je boeken gaat invoeren voor een andere locatie.
     
 Als je je selecties hebt gemaakt, scan dan het ean nummer van je product. En Booki gaat voor je op zoek.
 
@@ -92,6 +104,8 @@ de belangrijkste gegevens die Booki heeft getoond.
 Vul alleen nog de locatie, verkoopprijs, het aantal en de winstmarge in bij een nieuw product.
 
 Bij tweedehands producten, moet ook nog de conditie en een omschrijving van de conditie worden ingevuld.    
+
+Hier is ook de mogelijkheid om meteen een kortings product te maken. Vul dan ook de originele prijs is. Zorg er wel voor dat de verkoopprijs lager is dan de originele prijs.
 
 Na het invoeren is er de mogelijkheid om labels uit te printen, en kun je daarna het volgende artikel invoeren.
 
@@ -113,7 +127,18 @@ of mutatie gevonden, dan slaat Booki deze stappen automatisch over.
 
 In het afboekscherm staan weer de meest gebruikelijke gegevens van het product. 
 Geef altijd aan hoeveel producten je wilt afboeken (standaard op 1) en een omschrijving van de mutatie.
-    
+  
+## Sneluitvoer
+
+Deze uitvoer van producten werkt alleen met Booki-barcodes. Het voordeel is wel dat je hier meerdere producten in 1x kunt afboeken.
+
+Voordat je begint, moet je er wel voor zorgen dat je het juiste mutatie type hebt gekozen, dit kun je tijdens het proces niet meer wijzigen.
+
+Elk gescand boek wordt in de lijst gezet. Heb je meerdere dezelfde producten, uit dezelfde mutatie, dan wordt het aantal verhoogd. Let op dezelfde producten kunnen een verschillende mutatie hebben. En dus apart in de lijst staan.
+
+Alle boeken gescand? Dan zie je de totaal prijs, en het totaal aantal gescande producten. Je kunt nu ook eventuele kortingen toepassen. Bookie voert deze kortingen automatisch door over alle gescande producten. Je kunt natuurlijk ook op een product zelf een korting doorvoeren, **let wel op**, dit moet je doen voordat je korting geeft op de totaalprijs. 
+Als je korting invuld , en weer scant wordt de korting gereset. Gebruik dus alleen korting als je helemaal klaar bent met scannen. Zo gauw je op de knop afhandelen drukt, worden al je gescande producten afgeboekt.
+  
 ## Orders
 
 Een order kan 7 statussen hebben. De 5 waar iets meegedaan moet worden zijn hier in tabjes verdeeld :
@@ -146,4 +171,5 @@ Zorg ervoor dat je het juiste product uit de voorraad pakt.
     Bijv barcode : 9789079677726-I-0000004489.
     De eerste 13 cijfers is het ean nummer, er tussen staat de -I- dit wil zeggen dat het volgende nummer 
     een mutatieIn Id is. Zorg ervoor dat je product dezelfde code heeft.
-          
+
+Als je een order annuleert worden de artikelen uit die order weer terug op voorraad gezet, in het orderstatus log van de order, komen de gegevens van de geannuleerde producten te staan. Zodat je altijd kunt zien wat er besteld was.
