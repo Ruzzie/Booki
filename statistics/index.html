@@ -12,11 +12,11 @@
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/purebasic.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/purebasic.min.css">
 
         <script src="../js/jquery-1.10.2.min.js" defer></script>
         <script src="../js/bootstrap.min.js" defer></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
@@ -95,7 +95,7 @@
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#alle-rapporten-nieuw" class="nav-link">Alle rapporten (Nieuw)</a>
+            <li class="nav-item" data-level="2"><a href="#alle-rapporten" class="nav-link">Alle rapporten</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -143,7 +143,7 @@ en de lagere waarde als kosten, die u aftrekt van de opbrengsten.
 <p>De producten staan ingedeeld per type(conditie van het product). Nieuw zijn natuurlijk je nieuwe producten, de rest (als nieuw, goed etc) zijn tweedehands producten.</p>
 <p>Aantal op voorraad, zijn totalen. Dus van een zelfde product waar je er 10 van op voorraad hebt, tellen ze alle 10 mee. </p>
 <p>Totale inkoopprijs, zijn alle inkoopprijzen per categorie bij elkaar opgeteld. </p>
-<h2 id="alle-rapporten-nieuw">Alle rapporten (Nieuw)</h2>
+<h2 id="alle-rapporten">Alle rapporten</h2>
 <p>Deze pagina is zo gemaakt dat er allerlei soorten rapporten snel weer kunnen worden gegeven. Helaas is niet ieder rapport hiervoor geschikt. Maar er zijn veel mogelijkheden. 
 Zijn er dus rapporten die Booki nog niet heeft, en die je graag terug zou zien in Booki. 
 Neem dan contact met ons op, en dan zullen wij de mogelijkheden bekijken. </p>
@@ -153,10 +153,11 @@ Neem dan contact met ons op, en dan zullen wij de mogelijkheden bekijken. </p>
 De datums die je kiest zijn inclusief. Als je een peridoe hebt gekozen, klik je op 'apply'. Wil je de datum wijzigen, klik dan gewoon weer op je gekozen datum en het menu opent zich weer.
 De datumprikker bevat ook vooraf gemaakte periodes, zoals gisteren, vorige week, dit jaar, vorig jaar enz.</p>
 <p>Niet elk rapport heeft aanvullende informatie nodig.</p>
-<p>Elk rapport kan ook nog een extra omschrijving hebben, als een rapport deze heeft, kun je hem zien boven de 'Toon rapport' knop.</p>
+<p>Elk rapport kan ook nog een extra omschrijving/uitleg hebben, deze is te zien boven de 'Toon rapport' knop.</p>
 <p>Als je alle gegevens voor een rapport hebt ingevuld, wordt de 'Toon rapport' knop actief, als je vervolgens hier op drukt wordt het rapport opgehaald en weergegeven.</p>
 <p>Als je hetzelfde rapport wilt zien, maar met een andere datum of locatie, kies dan gewoon een andere locatie of datum, en klik weer op de 'Toon rapport' knop.</p>
-<p>Wil je een ander rapport, kies dan een ander rapport, en herhaal bovenstaande stappen.</p></div>
+<p>Wil je een ander rapport, kies dan een ander rapport, en herhaal bovenstaande stappen.</p>
+<p>Elk rapport is ook te downloaden als csv. Dit kan als wat je op je scherm ziet, maar ook als een uitgebreide csv met nog veel meer informatie.</p></div>
             </div>
         </div>
 
@@ -179,16 +180,13 @@ De datumprikker bevat ook vooraf gemaakte periodes, zoals gisteren, vorige week,
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
             </div>
             <div class="modal-body">
-                <p>
-                    From here you can search these documents. Enter
-                    your search terms below.
-                </p>
+                <p>From here you can search these documents. Enter your search terms below.</p>
                 <form>
                     <div class="form-group">
                         <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
                     </div>
                 </form>
-                <div id="mkdocs-search-results"></div>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
             </div>
             <div class="modal-footer">
             </div>

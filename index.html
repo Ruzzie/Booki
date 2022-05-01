@@ -12,11 +12,11 @@
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/font-awesome.min.css" rel="stylesheet">
         <link href="css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/purebasic.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/purebasic.min.css">
 
         <script src="js/jquery-1.10.2.min.js" defer></script>
         <script src="js/bootstrap.min.js" defer></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
@@ -107,6 +107,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#sneluitvoer" class="nav-link">Sneluitvoer</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
             <li class="nav-item" data-level="2"><a href="#orders" class="nav-link">Orders</a>
               <ul class="nav flex-column">
               </ul>
@@ -143,15 +147,17 @@ Elke avond worden daar de nieuwste boeken aan toegevoegd. </p>
 <li><strong>Voorraad</strong> Hier kun je alle producten bekijken die ooit zijn ingevoerd.</li>
 <li><strong>Invoer</strong> De plek om alle nieuwe producten snel en makkelijk in te voeren.</li>
 <li><strong>Uitgaand</strong> Hiermee ga je naar het afboeken van producten.</li>
+<li><strong>Sneluitvoer</strong> Hier kun je meerdere producten tegelijk uitvoeren.</li>
 <li><strong>Orders</strong> Naar orderoverzicht, hier kun je ook snel zien of er nieuwe orders zijn en of er nog orders liggen die verzonden moeten worden.</li>
-<li><strong>Bedrijfsnaam</strong> Hieronder staan alle instellingen voor het bedrijf</li>
-<li>Uitloggen</li>
+<li><strong>Jouw bedrijfsnaam</strong> Hieronder staan alle instellingen voor het bedrijf</li>
+<li><strong>Uitloggen</strong></li>
 </ul>
 <h2 id="home">Home</h2>
 <ul>
 <li>De pagina waar alles begint, vanaf hier kun je overal snel naar toe.</li>
 <li>Bijv naar statistieken, voor meer details hierover, ga naar de statistieken pagina.</li>
 <li>Hier kun je ook in 1 oogopslag zien of er nog openstaande orders zijn, en wanneer je voor het laatst een upload hebt gedaan naar boekwinkeltjes.</li>
+<li>Onderaan staat een handige grafiek over een heel jaar van je omzet en verkopen per dag. Waarin je in 1 oogopslag kunt zien aan de hand van de kleur hoe goed die dag was.</li>
 </ul>
 <h2 id="voorraad">Voorraad</h2>
 <p>Als je naar deze pagina gaat, of als je op de refresh knop drukt, worden automatisch de 25 laatst gewijzigde producten getoond. 
@@ -159,15 +165,16 @@ Je kunt hier ook zelf zoeken, met nog 3 extra opties.</p>
 <p><img alt="De Booki voorraad search" src="img\VoorraadSearch.png" /></p>
 <ul>
 <li>Zoeken 'alleen op voorraad', producten waar geen voorraad van is worden dan niet meer weergegeven.</li>
-<li>Zoeken op Conditie (Nieuw of Tweedehands).</li>
-<li>Zoeken op een tag.</li>
+<li>Zoeken op Conditie (Nieuw, Tweedehands of Ramsj).</li>
+<li>Zoeken op een zelftoegevoegde tag.</li>
+<li>Andere filter opties, hierin kan van alles worden toegevoegd. Is er iets waar je graag op zou willen zoeken, laat het ons weten.</li>
 </ul>
 <p>Natuurlijk zijn deze opties te combineren.</p>
 <p>Als er producten gevonden zijn, kun je de belangrijkste gegevens per product bekijken in de tabel. Wil je de samenvatting lezen van een
 product, blijf dan met de muis even stil staan op het product van keuze, en een samenvatting zal te voorschijn komen. </p>
 <ul>
 <li>Titel, auteur en ean.</li>
-<li>Type is de conditie, Nieuw of Tweedehands(Als nieuw, Goed, Redelijk, Matig)</li>
+<li>Type is de conditie, Nieuw, Ramsj of Tweedehands(Als nieuw, Goed, Redelijk, Matig)</li>
 <li>Aantal, is het actuele aantal op voorraad.</li>
 <li>Locatie, waar het boek wordt bewaard/staat in de winkel.</li>
 <li>En de verkoopprijs inclusief btw in euros.</li>
@@ -187,6 +194,10 @@ de tekst "Toon log". Hier zie je precies welke in mutaties en uit mutaties er vo
 <p class="admonition-title">Let op!</p>
 <p>hier weten we dus niet voor welke mutatie je een label wilt printen. Je kunt van meerdere mutaties voorraad hebben. Kijk bij meerdere opties goed welke je moet hebben. </p>
 </div>
+<p>Hier kun je ook een aanbieding maken van je product. Als je een aanbieding maakt van je product, wordt dit op de label en op de website weergegeven.</p>
+<p><img alt="De Booki voorraad search" src="img\AanbiedingLabel.png" /> <img alt="De Booki voorraad search" src="img\WebshopDiscountProduct.png" /></p>
+<p>Als je wijzigingen maakt in gegevens die op het label staan, zul je dus voor elk product een nieuw label moeten uitprinten. Maar dit hoeft niet. De barcode veranderd namelijk niet.</p>
+<p>De verandering op de website hoef je helemaal niks voor te doen, dat gaat allemaal automatisch.</p>
 <h2 id="invoer">Invoer</h2>
 <p>Voordat je kunt zoeken op Ean, moet je eerst het invoer type en conditie selecteren. Doe dit nauwkeurig, dit wordt allemaal bij de mutatie opgeslagen.</p>
 <ul>
@@ -195,11 +206,13 @@ de tekst "Toon log". Hier zie je precies welke in mutaties en uit mutaties er vo
 <li><strong>Gecreëerd</strong> : Denk aan kaartjes voor een lezing.</li>
 <li><strong>Terug gebracht</strong> : Retour van een verkocht artikel.</li>
 </ul>
+<p>Hier is ook de mogelijkheid om 'Snelle locatie' aan te zetten. Ga je een hele reeks boeken voor 1 locatie invoeren, zet dit dan aan. Zodat je de locatie maar 1x hoeft te selecteren. Maar <strong>LET OP</strong> vergeet dit niet weer uit te zetten als je boeken gaat invoeren voor een andere locatie.</p>
 <p>Als je je selecties hebt gemaakt, scan dan het ean nummer van je product. En Booki gaat voor je op zoek.</p>
 <p>Als het product al in je collectie zit, dan worden de eerder ingevulde gegevens getoond. Staat het nog niet in je collectie dan worden 
 de belangrijkste gegevens die Booki heeft getoond.</p>
 <p>Vul alleen nog de locatie, verkoopprijs, het aantal en de winstmarge in bij een nieuw product.</p>
 <p>Bij tweedehands producten, moet ook nog de conditie en een omschrijving van de conditie worden ingevuld.    </p>
+<p>Hier is ook de mogelijkheid om meteen een kortings product te maken. Vul dan ook de originele prijs is. Zorg er wel voor dat de verkoopprijs lager is dan de originele prijs.</p>
 <p>Na het invoeren is er de mogelijkheid om labels uit te printen, en kun je daarna het volgende artikel invoeren.</p>
 <h2 id="uitgaand">Uitgaand</h2>
 <p>Als er een product uitgaat dat niet via de kassa of een online verkoop gaat. Of als er iets is misgegaan en je moet een product handmatig afboeken. 
@@ -213,6 +226,12 @@ Als je al nieuwe producten hebt binnengekegen voordat de oude op zijn bijv. Maak
 of mutatie gevonden, dan slaat Booki deze stappen automatisch over.</p>
 <p>In het afboekscherm staan weer de meest gebruikelijke gegevens van het product. 
 Geef altijd aan hoeveel producten je wilt afboeken (standaard op 1) en een omschrijving van de mutatie.</p>
+<h2 id="sneluitvoer">Sneluitvoer</h2>
+<p>Deze uitvoer van producten werkt alleen met Booki-barcodes. Het voordeel is wel dat je hier meerdere producten in 1x kunt afboeken.</p>
+<p>Voordat je begint, moet je er wel voor zorgen dat je het juiste mutatie type hebt gekozen, dit kun je tijdens het proces niet meer wijzigen.</p>
+<p>Elk gescand boek wordt in de lijst gezet. Heb je meerdere dezelfde producten, uit dezelfde mutatie, dan wordt het aantal verhoogd. Let op dezelfde producten kunnen een verschillende mutatie hebben. En dus apart in de lijst staan.</p>
+<p>Alle boeken gescand? Dan zie je de totaal prijs, en het totaal aantal gescande producten. Je kunt nu ook eventuele kortingen toepassen. Bookie voert deze kortingen automatisch door over alle gescande producten. Je kunt natuurlijk ook op een product zelf een korting doorvoeren, <strong>let wel op</strong>, dit moet je doen voordat je korting geeft op de totaalprijs. 
+Als je korting invuld , en weer scant wordt de korting gereset. Gebruik dus alleen korting als je helemaal klaar bent met scannen. Zo gauw je op de knop afhandelen drukt, worden al je gescande producten afgeboekt.</p>
 <h2 id="orders">Orders</h2>
 <p>Een order kan 7 statussen hebben. De 5 waar iets meegedaan moet worden zijn hier in tabjes verdeeld :</p>
 <ul>
@@ -241,7 +260,8 @@ Zorg ervoor dat je het juiste product uit de voorraad pakt. </p>
 <pre><code>Bijv barcode : 9789079677726-I-0000004489.
 De eerste 13 cijfers is het ean nummer, er tussen staat de -I- dit wil zeggen dat het volgende nummer 
 een mutatieIn Id is. Zorg ervoor dat je product dezelfde code heeft.
-</code></pre></div>
+</code></pre>
+<p>Als je een order annuleert worden de artikelen uit die order weer terug op voorraad gezet, in het orderstatus log van de order, komen de gegevens van de geannuleerde producten te staan. Zodat je altijd kunt zien wat er besteld was.</p></div>
             </div>
         </div>
 
@@ -264,16 +284,13 @@ een mutatieIn Id is. Zorg ervoor dat je product dezelfde code heeft.
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
             </div>
             <div class="modal-body">
-                <p>
-                    From here you can search these documents. Enter
-                    your search terms below.
-                </p>
+                <p>From here you can search these documents. Enter your search terms below.</p>
                 <form>
                     <div class="form-group">
                         <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
                     </div>
                 </form>
-                <div id="mkdocs-search-results"></div>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
             </div>
             <div class="modal-footer">
             </div>
@@ -324,6 +341,6 @@ een mutatieIn Id is. Zorg ervoor dat je product dezelfde code heeft.
 </html>
 
 <!--
-MkDocs version : 1.1.2
-Build Date UTC : 2021-02-15 13:05:57.131823+00:00
+MkDocs version : 1.3.0
+Build Date UTC : 2022-05-01 17:15:49.108798+00:00
 -->
